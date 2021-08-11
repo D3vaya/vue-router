@@ -14,46 +14,46 @@ export default {
   },
   methods: {
     onChangeName() {
-      console.log("se cambiara el name jc ayala");
+      // console.log("se cambiara el name jc ayala");
       this.name = "Jc AYALA";
     },
   },
 
   beforeCreate() {
-    console.log("beforeCreate");
+    // console.log("beforeCreate");
   },
   created() {
-    console.log("created");
+    // console.log("created");
   },
   beforeMount() {
-    console.log("beforeMount");
+    // console.log("beforeMount");
   },
   mounted() {
-    console.log("mounted");
+    // console.log("mounted");
   },
   renderTriggered() {
-    console.log("renderTriggered");
+    // console.log("renderTriggered");
   },
   beforeUpdate() {
-    console.log("beforeUpdate");
+    // console.log("beforeUpdate");
   },
   renderTracked() {
-    console.log("renderTracked");
+    // console.log("renderTracked");
   },
   updated() {
-    console.log("updated");
+    // console.log("updated");
   },
   activated() {
-    console.log("activated");
+    // console.log("activated");
   },
   deactivated() {
-    console.log("deactivated");
+    // console.log("deactivated");
   },
   beforeUnmount() {
-    console.log("beforeUnmount");
+    // console.log("beforeUnmount");
   },
   unmounted() {
-    console.log("unmounted");
+    // console.log("unmounted");
   },
 };
 </script>
